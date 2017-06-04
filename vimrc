@@ -6,6 +6,8 @@ set lines=35 columns=150
 set colorcolumn=90
 set number
 highlight LineNr ctermfg=yellow
+let mapleader=" "
+map <leader>s :source ~/.vimrc<CR>
 set hidden
 set history=100
 filetype indent on
@@ -22,4 +24,5 @@ map <D-A-RIGHT> <C-w>l
 map <D-A-LEFT> <C-w>h
 map <D-A-DOWN> <C-w><C-w>
 map <D-A-UP> <C-w>W
+nnoremap <Leader><Leader> :e#<CR>
 set showmatch
