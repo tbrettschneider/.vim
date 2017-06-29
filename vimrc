@@ -1,11 +1,11 @@
 filetype on
 syntax on
 colorscheme Tomorrow-Night-Blue
-set guifont=Menlo\ Regular:h18
+"set guifont=Source\ Code\ Pro\ Regular:h18
 set lines=35 columns=150
 set colorcolumn=90
 set number
-highlight LineNr ctermfg=yellow
+highlight LineNr ctermfg=lightblue ctermbg=darkblue
 let mapleader=" "
 map <leader>s :source ~/.vimrc<CR>
 set hidden
